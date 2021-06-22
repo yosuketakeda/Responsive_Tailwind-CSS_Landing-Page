@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "build:main": "postcss tailwind-css/main_tailwind.css -o public/css/main.css",
+        "build:home": "postcss tailwind-css/home_tailwind.css -o public/css/home.css"
+    },
+    "dependencies": {
+        "postcss-cli": "^8.3.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.6",
+        "postcss": "^8.3.1",
+        "tailwindcss": "^2.1.4"
+    }
+}

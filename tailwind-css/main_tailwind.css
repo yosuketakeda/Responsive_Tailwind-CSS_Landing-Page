@@ -1,0 +1,325 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply text-bgTextColor;
+    font-family: "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.row{
+    @apply flex flex-row flex-wrap px-3 py-3 justify-between relative;    
+}
+h1{
+    @apply text-cusH1 text-black font-bold;
+}
+h2{
+    @apply text-cusH2 text-black mb-8;
+}
+h3{
+    @apply text-cusH3 text-black ;
+}
+h1,h2,h3{
+    @apply leading-1.2;
+}
+input{
+    @apply outline-none box-border w-full;
+}
+button{
+    @apply focus:outline-none;
+}
+.bold{
+    @apply font-bold;
+}
+.container{
+    @apply mx-auto;
+}
+.txt p{
+    @apply px-5 text-xl;
+}
+.txt .bold{
+    @apply p-4 text-2xl mb-0;
+}
+.btn{
+    @apply px-8 py-4 text-2xl rounded-xl font-bold mb-9;
+}
+.container{
+    @apply px-6;
+}
+/******* sprites *******/
+.sprites_amex, .sprites_diners, .sprites_discover, .sprites_master, .sprites_paypal, 
+.sprites_visa, .sprites_telephone, .sprites_apple, .sprites_facebook, .sprites_googleplay, 
+.sprites_insta, .sprites_twitter, .sprites_google, .sprites_star, .sprites_search
+{ max-width: 100%; background-size: 100%; background-image: url('../assets/images/sprites.webp'); }
+ 
+.sprites_amex { background-position: 0 0%; background-size: 100%; }
+.sprites_diners { background-position: 0 7.005495%; background-size: 100%; }
+.sprites_discover { background-position: 0 14.010989%; background-size: 100%; }
+.sprites_master { background-position: 0 21.016484%; background-size: 100%; }
+.sprites_paypal { background-position: 0 28.021978%; background-size: 100%; }
+.sprites_visa { background-position: 0 35.027473%; background-size: 100%; }
+.sprites_telephone { background-position: 0 43.098592%; background-size: 123.529412%; }
+.sprites_apple { background-position: 0 51.939058%; background-size: 150%; }
+.sprites_facebook { background-position: 0 59.833795%; background-size: 150%; }
+.sprites_googleplay { background-position: 0 67.728532%; background-size: 150%; }
+.sprites_insta { background-position: 0 75.623269%; background-size: 150%; }
+.sprites_twitter { background-position: 0 83.518006%; background-size: 150%; }
+.sprites_google { background-position: 0 89.918256%; background-size: 190.909091%; }
+.sprites_star { background-position: 0 95.013477%; background-size: 227.027027%; }
+.sprites_search { background-position: 0 100%; background-size: 233.333333%; }
+
+.sprites_star{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+.sprites_amex, .sprites_diners, .sprites_master, .sprites_paypal, .sprites_visa, .sprites_discover{
+    min-width: 54px;
+}
+/****** slider ******/
+.splide__list .splide__slide{
+    @apply my-2 bg-white;
+}
+.splide__list .splide__slide .row{
+    @apply justify-center;
+}
+.splide__pagination .splide__pagination__page{
+    @apply mx-5 w-5 h-5 border border-black border-solid bg-white;
+}
+.splide__pagination .splide__pagination__page.is-active{
+    @apply transform-none bg-btnColor;
+}
+/******* Header *******/
+header .logo{
+    @apply h-32;
+}
+header .find img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+#main-menu{
+    @apply text-2xl mx-auto flex flex-wrap flex-row justify-between items-center bg-white py-3 px-6 relative;
+}
+.signup-btn{
+    @apply py-3 px-7 text-white bg-orange rounded-2xl tracking-customSpc;
+}
+.login-btn{
+    @apply py-3 px-7 text-orange border-solid border-2 border-orange rounded-2xl tracking-customSpc;
+}
+.menu-item{
+    @apply mx-2 inline-flex items-center hover:text-orange;
+}
+.menu-item.find{
+    @apply py-3 px-7 bg-blurGrey rounded-2xl;
+}
+
+/******** Footer ********/
+footer{
+    @apply bg-footerBg bg-no-repeat bg-cover bg-top pt-5.5vw mt-18vw;
+}
+footer .row{
+    @apply text-white p-0;
+}
+footer h2{
+    @apply text-cusH1 text-white mb-4 leading-1;
+}
+.divide-line{
+    @apply h-px my-4 bg-white bg-opacity-50;
+}
+.vertical-line{
+    @apply w-px bg-white bg-opacity-50 ml-1; 
+}
+footer .contactus .divide-line{
+    @apply mt-0;
+}
+footer p{
+    @apply text-lg leading-10 tracking-wider;
+}
+footer a{
+    @apply text-lg block mb-1.7vw tracking-wider;
+}
+footer .btn{
+    @apply my-2 text-lg text-opacity-60 border border-darkYellow w-4/5 tracking-widest font-normal px-2 ;
+}
+footer .footer-bottom{
+    @apply py-8  flex-row-reverse;
+}
+footer .footer-bottom a{
+    @apply mx-2;
+}
+footer .footer-bottom img{
+    @apply h-8;
+}
+footer .become-sitter{
+    @apply absolute;
+    margin-top: -32%;
+}
+footer .become-sitter img{
+    @apply w-full;
+}
+.footer-call-phone{
+    @apply mb-0.5vw;
+}
+/*******************************************************************************/
+
+/******* BreakPoints *****/
+@screen extScreen{  /* @media (min-width: 1930px)*/
+    footer .become-sitter{
+        margin-top: -20%;
+    }
+}
+
+@screen 2xl{ /*@media (min-width: 1536px) { ... }*/
+    footer .become-sitter{
+        margin-top: -25%;
+    }
+}
+
+@screen xl{  /*@media (min-width: 1280px) { ... }*/    
+
+}
+
+@screen sxl{  /*@media (max-width: 1279px) { ... }*/
+    /**** Header ****/
+    #main-menu{
+        @apply text-base;
+    } 
+    .signup-btn, .login-btn{
+        @apply tracking-normal;
+    }
+    .btn{
+        @apply text-base;
+    }
+
+    /****** Footer *****/   
+}
+
+@screen lg{  /*@media (min-width: 1024px) { ... }*/
+    
+}
+
+@screen md{  /*@media (min-width: 768px) { ... }*/
+    .lp{
+        @apply block !important;
+    }
+    .sp{
+        @apply hidden !important;
+    }  
+}
+
+@screen landscape{  /*@media (min-width: 768px) and (max-width: 1023px){ ... }*/
+    /****** Header ******/
+    .ld{
+        @apply hidden !important;
+    }
+    .ld-i{
+        @apply block !important;
+    }
+    .menu-item.find, .signup-btn, .login-btn{
+        @apply py-2 px-5 rounded-xl;
+    }
+    .row{
+        @apply p-4;
+    }
+    .menu-item.find img{
+        @apply w-8 h-8 p-0;
+    } 
+  
+    /********* footer **********/
+    footer h2{
+        @apply text-4xl;
+    }
+    footer h3{
+        @apply text-2xl;
+    }
+    footer .btn{
+        @apply w-90% text-base;
+    }
+    footer .become-sitter{
+       /* @apply -mt-28.5vw;*/
+    }
+    footer p{
+        @apply leading-7 text-base;
+    }
+    footer a{
+        @apply text-base;
+    }
+}
+
+@screen rtm{ /*@media (min-width: 640px) and (max-width: 767px){ ... }*/
+}
+
+@screen xmb{  /*@media (max-width: 767px){ ... }*/
+    .lp{
+        @apply hidden !important;
+    }
+    .sp{
+        @apply block !important;
+    }
+    .container{
+        @apply max-w-full;
+    }
+    
+    /******* Header *******/
+    header .logo{
+        @apply h-20;
+    }
+    .menu-item{
+        margin-right:2px;
+    }
+    .menu-item.find{
+        @apply p-0;
+    }
+    .menu-item.find img{
+        @apply w-8 h-8 p-0;
+    }    
+    #main-menu{
+        @apply shadow-xl;
+    } 
+    /*  
+    .menu-item.find, .signup-btn, .login-btn{
+        @apply py-2 px-5 rounded-xl;
+    }
+    */
+    /****** Footer *****/
+    footer{
+        @apply pt-12 mt-8;
+    }
+    footer p{
+        @apply leading-6;
+    }
+    footer .btn{
+        @apply w-3/5;
+    }
+    footer .become-sitter{
+        @apply relative mt-0;
+    }
+    footer .become-sitter img{
+        @apply w-3/5 m-auto;
+    }
+
+    /******* Slider *****/
+    .splide__pagination .splide__pagination__page{
+        @apply mx-1;
+    }
+}
+
+@screen mb{ /*@media (max-width: 639px) { ... }*/
+    .row{
+        @apply p-0;
+    }
+    .btn{
+        @apply w-200px;
+    }
+    .container{
+        @apply px-4;
+    }
+    /**** header ****/     
+    #main-menu{
+        @apply px-4 py-0;
+    }
+    /***** footer ****/
+    footer .btn{
+        @apply w-full;
+    }
+}

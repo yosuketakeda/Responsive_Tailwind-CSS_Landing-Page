@@ -1,0 +1,1109 @@
+/********** Home : Hero part *********/
+
+.page-top{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-intro{
+  background-image: url(../assets/images/home/hero.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+}
+
+.hero-copy{
+  margin-bottom: 3.5rem;
+}
+
+.hero-copy .intro-title h1{
+  margin-bottom: 3rem;
+}
+
+.title-comment/*.hero-copy .intro-title p*/{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 2.5rem;
+}
+
+/** Home : Search Form**/
+
+#searchForm{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  border-radius: 1rem;
+  width: 55%;
+}
+
+.input-groups{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#mainFormSearch{
+  border-radius: 1rem;
+  height: 140px;
+}
+
+#mainFormSearch img{
+  height: 100%;
+}
+
+.input-group{
+  width: 30% !important;
+}
+
+.input-group a input{
+  cursor: pointer;
+  text-align: center;
+}
+
+.input-group p{
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.input-group input{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.input-group.center{
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+
+.other-filters{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.other-filters a{
+  display: flex;
+}
+
+.other-filters img{
+  height: 1.75rem;
+  padding-left: 0.5rem;
+}
+
+/****** Home : Search Form Dots ******/
+
+.hero-bot-decor{
+  margin-top: -4%;
+  margin-left: -4%;
+  position: absolute;
+  width: 4%;
+}
+
+.hero-bot-decor img{
+  width: 100%;
+}
+
+/************************************************************************************/
+
+/******* Home : section-how-to-work *****/
+
+.section-how-to-work{
+  background-image: url(../assets/images/home/path.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-how-to-work h2{
+  text-align: center;
+}
+
+.section-how-to-work p{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-how-to-work .title-comment{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-how-to-work .num{
+  background-image: none;
+  height: 60%;
+  margin-left: -21%;
+  position: absolute;
+}
+
+.section-how-to-work .blocks{
+  padding: 3rem;
+}
+
+.section-how-to-work .num img{
+  height: 100%;
+}
+
+.section-how-to-work .img{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  z-index: 10;
+}
+
+.section-how-to-work .img img{
+  width: 100%;
+}
+
+.section-how-to-work .each{
+  padding: 2rem;
+}
+
+.section-how-to-work .search-sitter-btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 90, 250, var(--tw-bg-opacity));
+  margin-left: auto;
+  margin-right: auto;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+/************************************************************************************/
+
+/******* Home : Achievements *****/
+
+.section-achievements{
+  padding: 2rem;
+  text-align: center;
+}
+
+.section-achievements h2{
+  margin-bottom: 3rem;
+}
+
+.section-achievements .title-comment{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.section-achievements .img{
+  padding: 2rem;
+}
+
+.section-achievements .locations{
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 11%;
+}
+
+/************************************************************************************/
+
+/******* Home : Featured cat sitters *****/
+
+.section-featured{
+  background-image: url(../assets/images/home/featuredbg.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-featured .splide__list .splide__slide{
+  border-radius: 1.5rem;
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.section-featured .sitter{
+  height: 20vw;
+}
+
+.section-featured .sitter img{
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.section-featured .splide li .price-block{
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 162, 0, var(--tw-bg-opacity));
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-top: 3.5rem;
+  padding: 0.625rem;
+  position: absolute;
+  right: 0px;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.section-featured .splide li .stars{
+  margin-right: 0.5rem;
+}
+
+.section-featured .splide li .review{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.section-featured .splide li .btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 90, 250, var(--tw-bg-opacity));
+  border-radius: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.section-featured .exp-summary{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: rgb(7, 7, 119);
+}
+
+/************************************************************************************/
+
+/******* Home : Why Meowtel *****/
+
+.section-why{
+  background-image: url(../assets/images/home/why_bg.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5.5vw;
+  padding-bottom: 5.5vw;
+}
+
+.section-why img{
+  height: 10vw;
+  margin: auto;
+}
+
+.section-why .search-why-btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(84, 90, 250, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.section-why .search-become-btn{
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgba(84, 90, 250, var(--tw-border-opacity));
+  border-width: 1px;
+  --tw-text-opacity: 1;
+  color: rgba(84, 90, 250, var(--tw-text-opacity));
+}
+
+.section-why .btn-group{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center !important;
+}
+
+/************************************************************************************/
+
+/******* HOME : Learn More *****/
+
+.section-inter{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2.5rem;
+  padding-top: 10vw;
+}
+
+.section-inter .bgImg{
+  background-image: url(../assets/images/home/learnmore.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 100%;
+}
+
+.section-inter .cat{
+  margin-top: -8.55%;
+  position: absolute;
+  right: 15%;
+  width: 16.666667%;
+}
+
+.section-inter p{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  line-height: 3.5rem;
+}
+
+/************************************************************************************/
+
+/******* HOME : Forum *****/
+
+.section-forum{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.section-forum .row{
+  padding: 0px;
+}
+
+.section-forum .forum1{
+  background-image: url(../assets/images/home/forum1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.section-forum .forum2{
+  background-image: url(../assets/images/home/forum2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.section-forum .txt-part{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-forum h3{
+  font-weight: 700;
+}
+
+.section-forum p{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.section-forum .take-questions{
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  margin: 0px;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+/************************************************************************************/
+
+/************ HOME : Download Mobile App ***********/
+
+.section-mobile-app{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section-mobile-app .row{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.section-mobile-app .download-part{
+  border-radius: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/************************************************************************************/
+
+/************ HOME : Feedback ***********/
+
+.section-feedback{
+  background-image: url(../assets/images/home/feedbackbg.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+.section-feedback h2{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-feedback .splide__list .splide__slide{
+  border-radius: 1rem;
+  margin-top: 8vw;
+}
+
+.section-feedback .stars{
+  margin-bottom: 5%;
+  margin-top: 38%;
+}
+
+.section-feedback .clients{
+  margin-left: 25%;
+  position: absolute;
+  width: 50%;
+}
+
+.section-feedback .clients img{
+  width: 100%;
+}
+
+/************************************************************************************/
+
+/*******************************************************************************/
+
+/******* BreakPoints *****/
+
+@media (max-width: 639px){ /*@media (max-width: 639px) { ... }*/
+
+  /***** Home Search Form ******/
+
+  #searchForm{
+    top: 6rem;
+  }
+
+  /********* HOME : how to work *********/
+
+  .section-how-to-work .row{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  /********** HOME: Achievement ******/
+
+  .section-achievements .img{
+    padding: 1rem;
+  }
+
+  /******** HOME : why *********/
+
+  .section-why img{
+    height: 70vw;
+  }
+
+  /********* HOME : Lean more ********/
+
+  .section-inter .bgImg{
+    padding: 2rem;
+  }
+
+  /*********** HOME: Forum ************/
+
+  .section-forum .txt-part{
+    padding: 2rem;
+  }
+
+  .section-forum .take-questions{
+    width: 100%;
+  }
+
+  /***** Feedback Slider *****/
+
+  .section-feedback{
+    padding-top: 20vw;
+  }
+
+  .section-feedback h2{
+    margin-bottom: 0px;
+  }
+
+  .section-feedback .splide__list .splide__slide{
+    margin-top: 25vw;
+  }
+
+  .section-featured .sitter{
+    height: 95vw;
+  }
+
+  .section-feedback .clients{
+    margin-top:-445px;
+  }
+}
+
+@media (max-width: 767px){  /*@media (max-width: 767px){ ... }*/
+
+  /******* Slider *****/
+
+  .splide__pagination .splide__pagination__page{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  /**** Home ****/
+
+  .page-top{
+    padding: 1rem;
+    padding-top: 0px;
+  }
+
+  .section-intro{
+    background-position: center top 6rem;
+    background-size: contain;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-copy{
+    text-align: center;
+  }
+
+  .hero-copy .intro-title{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 100vw;
+  }
+
+  .title-comment/*.hero-copy .intro-title p*/{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  /***** Home Search Form ******/
+
+  #searchForm{
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    opacity: 0.8;
+    padding: 0.5rem;
+    position: absolute;
+    top: 8rem;
+    left: 5%;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    width: 90%;
+  }
+
+  #searchForm input{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    position: relative;
+    width: 100%;
+  }
+
+  #searchForm input::-moz-placeholder{
+    text-align: center;
+  }
+
+  #searchForm input:-ms-input-placeholder{
+    text-align: center;
+  }
+
+  #searchForm input::placeholder{
+    text-align: center;
+  }
+
+  .input-group{
+    padding: 0.25rem;
+  }
+
+  .input-group p{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .other-filters{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  #mainFormSearch{
+    height: 60px;
+  }
+
+  .other-filters img{
+    height: 1rem;
+  }
+
+  /******* HOME : How to work ******/
+
+  .section-how-to-work{
+    background-image: none;
+    padding-top: 0px;
+  }
+
+  .section-how-to-work .title-comment{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .section-how-to-work .num{
+    height: 60%;
+    margin-left: -2%;
+    position: absolute;
+  }
+
+  .section-how-to-work .img{
+    margin-left: auto;
+    padding: 0px;
+    width: 80%;
+  }
+
+  .section-how-to-work .txt{
+    padding-top: 1rem;
+  }
+
+  /********* HOME : Achievements *********/
+
+  .section-achievements .locations{
+    position: relative;
+    left: initial;
+  }
+
+  /********** HOME : Learn more *********/
+
+  .section-inter p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  /********** HOME : why ***********/
+
+  .section-why{
+    padding: 1.25rem;
+  }
+
+  /********** HOME : Forum **********/
+
+  .section-forum{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .section-forum .forum1{
+    border-radius: 1.5rem;
+  }
+
+  .section-forum h3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .section-forum p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .section-forum .title-comment{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px){ /*@media (min-width: 640px) and (max-width: 767px){ ... }*/
+
+  /*************** HOME : Featured ***************/
+
+  .section-featured .splide__list .splide__slide{
+    border-radius: 0.75rem;
+  }
+
+  .section-featured .splide li .btn{
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .section-featured .splide li .price-block{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .section-featured .sitter{
+    height: 44vw;
+  }
+
+  .section-featured .sitter img{
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+
+  /*********** HOME : Feedback ***********/
+
+  .section-feedback .splide__list .splide__slide{
+    margin-top: 12vw;
+  }
+
+  .section-feedback .clients{
+    margin-top:-355px;
+  }
+}
+
+@media (min-width: 768px){  /*@media (min-width: 768px) { ... }*/
+}
+
+@media (min-width: 768px) and (max-width: 1023px){  /*@media (min-width: 768px) and (max-width: 1023px){ ... }*/
+
+  /**** Home ****/
+
+  .section-intro{
+    padding: 0px;
+  }
+
+  .hero-copy{
+    margin-bottom: 1.75rem;
+  }
+
+  .title-comment/*.hero-copy .intro-title p*/{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  /***** Home Search Form ******/
+
+  #searchForm{
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+  }
+
+  #searchForm input{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    position: relative;
+    width: 100%;
+  }
+
+  #searchForm input::-moz-placeholder{
+    text-align: center;
+  }
+
+  #searchForm input:-ms-input-placeholder{
+    text-align: center;
+  }
+
+  #searchForm input::placeholder{
+    text-align: center;
+  }
+
+  .input-group{
+    padding: 0.25rem;
+  }
+
+  .input-group p{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+
+  .other-filters{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  #mainFormSearch{
+    height: 60px;
+  }
+
+  .other-filters img{
+    height: 1rem;
+  }
+
+  /****  HOME : Search Form Dots ****/
+
+  .hero-bot-decor{
+    margin-top: -3%;
+    margin-left: -4%;
+    width: 3%;
+  }
+
+  /****************** HOME : How to work *********************/
+
+  .section-how-to-work .blocks{
+    padding: 1rem;
+  }
+
+  .section-how-to-work .num{
+    height: 50%;
+    margin-left: -21%;
+  }
+
+  .section-how-to-work .img{
+    padding: 0px;
+  }
+
+  .txt .bold, .txt p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /******************** HOME : Forum ****************/
+
+  .section-forum h3{
+    font-size: 32px;
+  }
+
+  /*************** HOME : Featured ***************/
+
+  .section-featured .splide__list .splide__slide{
+    border-radius: 0.75rem;
+  }
+
+  .section-featured .splide li .btn{
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .section-featured .splide li .price-block{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .section-featured .sitter{
+    height: 28vw;
+  }
+
+  .section-featured .sitter img{
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+
+  /************** HOME : Feedback **************/
+
+  .section-feedback .clients{
+    margin-top: -340px;
+  }
+}
+
+@media (min-width: 1024px){  /*@media (min-width: 1024px) { ... }*/
+
+  .section-feedback .clients{
+    margin-top: -425px;
+  }
+}
+
+@media (max-width: 1279px){  /*@media (max-width: 1279px) { ... }*/
+
+  /******* HOME ******/
+
+  .section-intro{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  /**** Search Form ****/
+
+  .input-group{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .input-group p, .input-group input{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  #mainFormSearch{
+    height: 80px;
+  }
+
+  .other-filters{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /****  HOME : Search Form Dots ****/
+
+  .hero-bot-decor{
+    margin-top: -3%;
+    margin-left: -3%;
+    width: 3%;
+  }
+
+  /****************** HOME : How to work *********************/
+
+  .section-how-to-work .row{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .section-how-to-work .blocks{
+    padding: 1rem;
+  }
+
+  .section-how-to-work .num{
+    height: 50%;
+    margin-left: -17%;
+  }
+
+  .section-how-to-work .img{
+    padding: 10px;
+  }
+
+  /*.section-how-to-work*/
+
+  .txt .bold, .txt p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  /******************** HOME : Achievements ********************/
+
+  .section-achievements .title-comment{
+    width: 80%;
+  }
+
+  /********* HOME : Learn more **********/
+
+  .section-inter p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  /************** HOME : Forum *************/
+
+  .section-forum{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .section-forum .txt-part{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .section-forum .title-comment{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  /*************** HOME : Mobile App *************/
+
+  .section-mobile-app{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .section-mobile-app .download-part{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .section-mobile-app .download-part p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px){  /*@media (min-width: 1280px) { ... }*/
+
+  .section-intro{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .section-feedback .clients{
+    margin-top: -500px;
+  }
+}
+
+@media (min-width: 1536px){ /*@media (min-width: 1536px) { ... }*/
+
+  .section-intro{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .section-feedback .clients{
+    margin-top: -530px;
+  }
+}
+
+@media (min-width: 1930px){  /* @media (min-width: 1930px)*/
+
+  /***** HOME : Hero *****/
+
+  .section-intro{
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    padding-left: 4rem;
+  }
+
+  .section-feedback .clients{
+    margin-top: -575px;
+  }
+}
+

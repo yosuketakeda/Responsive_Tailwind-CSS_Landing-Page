@@ -1,0 +1,628 @@
+
+/********** Home : Hero part *********/
+.page-top{
+    @apply px-8;
+}
+.section-intro{
+    @apply bg-heroImg bg-right bg-no-repeat bg-50% py-7vw;
+}
+.hero-copy{
+    @apply mb-14; 
+}
+.hero-copy .intro-title h1{
+    @apply mb-12;
+}
+.title-comment/*.hero-copy .intro-title p*/{
+    @apply text-2xl leading-10;
+}
+
+/** Home : Search Form**/
+#searchForm{
+    @apply bg-white w-55% rounded-2xl;
+}
+.input-groups{ 
+    @apply flex items-center justify-between w-full;
+}
+#mainFormSearch{
+    @apply rounded-2xl h-140px;
+}
+#mainFormSearch img{
+    @apply h-full;
+}
+.input-group{
+    width: 30% !important;
+}
+.input-group a input{
+    @apply cursor-pointer text-center;
+}
+.input-group p{
+    @apply font-bold pb-3 text-xl text-black;
+}
+.input-group input{
+    @apply text-2xl;
+}
+.input-group.center{
+    @apply border-r border-l border-black;
+}
+.other-filters{
+    @apply text-xl py-3 flex flex-row items-center justify-center;
+}
+.other-filters a{
+    @apply flex;
+}
+.other-filters img{
+    @apply h-7 pl-2;
+}
+
+/****** Home : Search Form Dots ******/
+.hero-bot-decor{
+    @apply absolute w-4% -mt-4% -ml-4%;
+}
+.hero-bot-decor img{
+    @apply w-full;
+}
+
+/************************************************************************************/
+/******* Home : section-how-to-work *****/
+.section-how-to-work{
+    @apply py-12 bg-pathImg bg-no-repeat bg-contain bg-center;
+}
+.section-how-to-work h2{
+    @apply text-center;
+}
+.section-how-to-work p{
+    @apply text-center mb-8;
+}
+.section-how-to-work .title-comment{
+    @apply px-8;
+}
+.section-how-to-work .num{
+    @apply absolute -ml-21% h-3/5 bg-none ;
+}
+.section-how-to-work .blocks{
+    @apply p-12;
+}
+.section-how-to-work .num img{
+    @apply h-full;    
+}
+.section-how-to-work .img{
+    @apply px-6 z-10 bg-white;
+}
+.section-how-to-work .img img{
+    @apply w-full;
+}
+.section-how-to-work .each{
+    @apply p-8;
+}
+.section-how-to-work .search-sitter-btn{
+    @apply bg-btnColor text-white mx-auto;
+}
+
+/************************************************************************************/
+/******* Home : Achievements *****/
+.section-achievements{
+    @apply p-8 text-center;
+}
+.section-achievements h2{
+    @apply mb-12;
+}
+.section-achievements .title-comment{
+    @apply w-1/2 mx-auto mt-6 mb-12;
+}
+.section-achievements .img{
+    @apply p-8;
+}
+.section-achievements .locations{
+    @apply  mx-auto absolute bottom-0 left-11%;
+}
+
+/************************************************************************************/
+/******* Home : Featured cat sitters *****/
+
+.section-featured{
+    @apply py-24 bg-featuredBg bg-no-repeat bg-right bg-contain;
+}
+.section-featured .splide__list .splide__slide{
+    @apply rounded-3xl shadow-md;
+}
+.section-featured .sitter{
+    @apply h-20vw;
+}
+.section-featured .sitter img{
+    @apply rounded-t-3xl w-full h-full object-cover;
+}
+.section-featured .splide li .price-block{
+    @apply absolute mt-14 bg-darkYellow text-white right-0 p-2.5 rounded-l-2xl;
+}
+.section-featured .splide li .stars{
+    @apply mr-2;
+}
+.section-featured .splide li .review{
+    @apply text-xl;
+}
+.section-featured .splide li .btn{
+    @apply text-white font-normal bg-btnColor rounded-2xl mt-4;
+}
+.section-featured .exp-summary{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: rgb(7, 7, 119);
+}
+
+/************************************************************************************/
+/******* Home : Why Meowtel *****/
+.section-why{
+    @apply bg-whyBg bg-no-repeat bg-top bg-cover py-5.5vw;
+}
+.section-why img{
+    @apply h-10vw m-auto;
+}
+.section-why .search-why-btn{
+    @apply bg-btnColor text-white;
+}
+.section-why .search-become-btn{
+    @apply bg-white text-btnColor border-btnColor border;
+}
+.section-why .btn-group{
+    @apply flex flex-row flex-wrap items-center;
+    @apply justify-center !important;
+}
+
+/************************************************************************************/
+/******* HOME : Learn More *****/
+
+.section-inter{
+    @apply px-6 pb-10 pt-10vw;
+}
+.section-inter .bgImg{
+    @apply w-full py-10 px-20 bg-learnmoreImg bg-no-repeat bg-cover rounded-3xl flex flex-row flex-wrap justify-between items-center;
+}
+.section-inter .cat{
+    @apply absolute w-1/6 right-15% -mt-8.55%;
+}
+.section-inter p{
+    @apply text-4xl leading-3.5rem;
+}
+
+
+/************************************************************************************/
+/******* HOME : Forum *****/
+.section-forum{
+    @apply px-6 py-28 ;
+}
+.section-forum .row{
+    @apply p-0;
+}
+.section-forum .forum1{
+    @apply bg-forum1Img bg-no-repeat bg-cover rounded-l-3xl;
+}
+.section-forum .forum2{
+    @apply bg-forum2Img bg-no-repeat bg-cover rounded-r-3xl;
+}
+.section-forum .txt-part{
+    @apply px-20 py-24;
+}
+.section-forum h3{
+    @apply font-bold;
+}
+.section-forum p{
+    @apply text-black text-3xl my-12;
+}
+.section-forum .take-questions{
+    @apply bg-black text-white m-0;
+}
+
+/************************************************************************************/
+/************ HOME : Download Mobile App ***********/
+.section-mobile-app{
+    @apply px-6 py-0;
+}
+.section-mobile-app .row{
+    @apply px-0;
+}
+.section-mobile-app .download-part{
+    @apply px-20 py-28 rounded-3xl;
+}
+
+/************************************************************************************/
+/************ HOME : Feedback ***********/
+.section-feedback{
+    @apply text-center py-24 bg-feedbackBg bg-no-repeat bg-left;
+}
+.section-feedback h2{
+    @apply px-8;
+}
+.section-feedback .splide__list .splide__slide{
+    @apply rounded-2xl mt-8vw;
+}
+.section-feedback .stars{
+    @apply mt-38% mb-5%;
+}
+.section-feedback .clients{
+    @apply absolute w-1/2 ml-25% ;
+}
+.section-feedback .clients img{
+    @apply w-full;    
+}
+
+/************************************************************************************/
+/*******************************************************************************/
+
+/******* BreakPoints *****/
+
+@screen mb{ /*@media (max-width: 639px) { ... }*/
+    
+    /***** Home Search Form ******/     
+    #searchForm{
+        @apply top-24;
+    }
+
+    /********* HOME : how to work *********/
+    .section-how-to-work .row{
+        @apply px-3;
+    }
+    /********** HOME: Achievement ******/
+    .section-achievements .img{
+        @apply p-4;
+    }
+
+    /******** HOME : why *********/
+    .section-why img{
+        @apply h-70vw;
+    }
+
+    /********* HOME : Lean more ********/
+    .section-inter .bgImg{
+        @apply p-8;
+    }
+
+    /*********** HOME: Forum ************/
+    .section-forum .txt-part{
+        @apply p-8;
+    }
+    .section-forum .take-questions{
+        @apply w-full;
+    }
+    /***** Feedback Slider *****/
+    .section-feedback{
+        @apply pt-20vw;
+    }
+    .section-feedback h2{
+        @apply mb-0;
+    }
+    .section-feedback .splide__list .splide__slide{
+        @apply mt-25vw;
+    }
+    .section-featured .sitter{
+        @apply h-95vw;
+    }
+    .section-feedback .clients{
+        margin-top:-445px;
+    }
+}
+
+@screen xmb{  /*@media (max-width: 767px){ ... }*/
+ 
+    /******* Slider *****/
+    .splide__pagination .splide__pagination__page{
+        @apply mx-1;
+    }
+    /**** Home ****/
+    .page-top{
+        @apply pt-0 p-4;
+    }
+    .section-intro{
+        @apply bg-contain bg-mbHeroImg py-0 px-4;
+    }
+    .hero-copy{
+        @apply text-center;
+    }
+    .hero-copy .intro-title{
+        @apply px-1 pt-100vw;
+    }
+    .title-comment/*.hero-copy .intro-title p*/{
+        @apply text-xl;
+    } 
+
+    /***** Home Search Form ******/     
+    #searchForm{
+        @apply absolute w-90% p-2 text-xs left-5% rounded-lg top-32 shadow-md opacity-80;
+    }
+    #searchForm input{
+        @apply relative text-xs w-full;
+    }
+    #searchForm input::placeholder{
+        @apply text-center;
+    }
+    .input-group{
+        @apply p-1;
+    }
+    .input-group p{
+        @apply text-xs text-center;
+    }
+    .other-filters{
+        @apply text-xs;
+    }
+    #mainFormSearch{
+        @apply h-60px;
+    }
+    .other-filters img{
+        @apply h-4;
+    }
+
+    /******* HOME : How to work ******/
+    .section-how-to-work{
+        @apply pt-0 bg-none;
+    }    
+    .section-how-to-work .title-comment{
+        @apply px-6;
+    }
+    .section-how-to-work .num{
+        @apply absolute h-3/5 -ml-2%;
+    }
+    .section-how-to-work .img{
+        @apply w-4/5 p-0 ml-auto;
+    }
+    .section-how-to-work .txt{
+        @apply pt-4;
+    }
+    
+    /********* HOME : Achievements *********/
+    .section-achievements .locations{
+        @apply  relative left-initial;
+    }
+    /********** HOME : Learn more *********/
+    .section-inter p{
+        @apply text-xl;
+    }
+    /********** HOME : why ***********/
+    .section-why{
+        @apply p-5;
+    }
+
+    /********** HOME : Forum **********/
+    .section-forum{
+        @apply py-6;
+    }    
+    .section-forum .forum1{
+        @apply rounded-3xl;
+    }
+    .section-forum h3{
+        @apply text-3xl;
+    }
+    .section-forum p{
+        @apply text-xl;
+    }
+    .section-forum .title-comment{
+        @apply my-6;
+    }
+}
+
+@screen rtm{ /*@media (min-width: 640px) and (max-width: 767px){ ... }*/
+    
+    /*************** HOME : Featured ***************/
+    .section-featured .splide__list .splide__slide{
+        @apply rounded-xl;
+    }
+    .section-featured .splide li .btn{
+        @apply w-90% mt-2 rounded-xl text-sm mb-6 mx-auto p-10px;
+    }
+    .section-featured .splide li .price-block{
+        @apply px-2 py-1 text-xs mt-8 rounded-l-lg;
+    }
+    .section-featured .sitter{
+        height: 44vw;
+    }
+    .section-featured .sitter img{
+        @apply rounded-t-xl;
+    }
+
+    /*********** HOME : Feedback ***********/
+    .section-feedback .splide__list .splide__slide{
+        margin-top: 12vw;
+    }
+    .section-feedback .clients{
+        margin-top:-355px;
+    }
+}
+
+@screen md{  /*@media (min-width: 768px) { ... }*/
+}
+
+@screen landscape{  /*@media (min-width: 768px) and (max-width: 1023px){ ... }*/
+
+    /**** Home ****/
+    .section-intro{
+        @apply p-0;
+    }
+    .hero-copy{
+        @apply mb-7;
+    }
+    .title-comment/*.hero-copy .intro-title p*/{
+        @apply text-xl;
+    } 
+
+    /***** Home Search Form ******/     
+    #searchForm{
+        @apply p-2 text-xs rounded-lg;
+    }
+    #searchForm input{
+        @apply relative text-xs w-full;
+    }
+    #searchForm input::placeholder{
+        @apply text-center;
+    }
+    .input-group{
+        @apply p-1;
+    }
+    .input-group p{
+        @apply text-xs text-center;
+    }
+    .other-filters{
+        @apply text-xs;
+    }
+    #mainFormSearch{
+        @apply h-60px;
+    }
+    .other-filters img{
+        @apply h-4;
+    }
+
+    /****  HOME : Search Form Dots ****/
+    .hero-bot-decor{
+        @apply w-3% -mt-3% -ml-4%;
+    }
+
+    /****************** HOME : How to work *********************/
+    .section-how-to-work .blocks{
+        @apply p-4;
+    }
+    .section-how-to-work .num{
+        @apply h-1/2 -ml-21%;
+    }
+    .section-how-to-work .img{
+        @apply p-0;
+    }
+    .txt .bold, .txt p{
+        @apply text-base;
+    }
+
+    /******************** HOME : Forum ****************/
+    .section-forum h3{
+        @apply text-32px;
+    }
+
+    /*************** HOME : Featured ***************/
+    .section-featured .splide__list .splide__slide{
+        @apply rounded-xl;
+    }
+    .section-featured .splide li .btn{
+        @apply w-90% mt-2 rounded-xl text-sm mb-6 mx-auto p-10px;
+    }
+    .section-featured .splide li .price-block{
+        @apply px-2 py-1 text-xs mt-8 rounded-l-lg;
+    }
+    .section-featured .sitter{
+        height: 28vw;
+    }
+    .section-featured .sitter img{
+        @apply rounded-t-xl;
+    }
+    /************** HOME : Feedback **************/
+    .section-feedback .clients{
+        margin-top: -340px;
+    }
+}
+@screen lg{  /*@media (min-width: 1024px) { ... }*/
+    .section-feedback .clients{
+        margin-top: -425px;    
+    }
+}
+
+@screen sxl{  /*@media (max-width: 1279px) { ... }*/
+    
+    /******* HOME ******/
+    .section-intro{
+        @apply py-0 px-10;
+    }
+    /**** Search Form ****/
+    .input-group{
+        @apply px-2;
+    }
+    .input-group p, .input-group input{
+        @apply text-base;
+    }
+    #mainFormSearch{
+        @apply h-80px;
+    }
+    .other-filters{
+        @apply text-base;
+    }
+    /****  HOME : Search Form Dots ****/
+    .hero-bot-decor{
+        @apply w-3% -mt-3% -ml-3%;
+    }
+
+    /****************** HOME : How to work *********************/
+    .section-how-to-work .row{
+        @apply px-6;
+    }
+    .section-how-to-work .blocks{
+        @apply p-4;
+    }
+    .section-how-to-work .num{
+        @apply h-1/2 -ml-17%;
+    }
+    .section-how-to-work .img{
+        @apply p-10px;
+    }
+    /*.section-how-to-work*/ .txt .bold, /*.section-how-to-work*/ .txt p{
+        @apply text-base;
+    }
+
+    /******************** HOME : Achievements ********************/
+    .section-achievements .title-comment{
+        @apply w-4/5;
+    }
+
+    /********* HOME : Learn more **********/
+    .section-inter p{
+        @apply text-2xl;
+    }
+
+    /************** HOME : Forum *************/
+    .section-forum{
+        @apply py-24;
+    }
+    .section-forum .txt-part{
+        @apply px-14 py-20;
+    }
+    .section-forum .title-comment{
+        @apply text-2xl;
+    }
+
+    /*************** HOME : Mobile App *************/
+    .section-mobile-app{
+        @apply py-0;
+    }
+    .section-mobile-app .download-part{
+        @apply py-10 px-7;
+    }
+    .section-mobile-app .download-part p{
+        @apply text-lg;
+    }
+}
+
+
+@screen xl{  /*@media (min-width: 1280px) { ... }*/    
+    .section-intro{
+        @apply px-8;
+    }
+    .section-feedback .clients{
+        margin-top: -500px;    
+    }
+}
+
+@screen 2xl{ /*@media (min-width: 1536px) { ... }*/
+    .section-intro{
+        @apply px-12;
+    }
+    .section-feedback .clients{
+        margin-top: -530px;    
+    }
+}
+
+
+@screen extScreen{  /* @media (min-width: 1930px)*/
+    /***** HOME : Hero *****/
+    .section-intro{
+        @apply py-8vw pl-16;
+    }
+    .section-feedback .clients{
+        margin-top: -575px;    
+    }
+}
+

@@ -1,0 +1,757 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="The #1 Cat Sitting App - Reliable &amp; Fully Insured Cat Sitters Near You | Book a great cat sitter meow!" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="robots" content="index, archive, follow"/>
+  <title>The #1 Cat Sitting App - Reliable &amp; Fully Insured Cat Sitters Near You | Meowtel</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/splide.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/flatpickr.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://meowtel.com",
+      "logo": "/assets/images/header/logo.webp"
+    }
+  </script>
+</head>
+<body>
+  <header id="main-menu" class="container md:space-x-4">
+    <a href="#" class="logo w-1/4 rtm:w-1/4 lg:w-1/5 xl:w-1/6">
+      <img class="h-full" src="assets/images/header/logo.webp" alt="Meowtel">
+    </a>
+    <nav class="flex items-center">
+      <a href="#" class="menu-item find">
+        <img class="sprites_search" alt="Find a cat sitter in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkAQMAAADbzgrbAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+        <span class="hidden lg:block">Find a Cat Sitter</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="sp ld-i fa fa-handshake-o text-lightOrange text-font4xl"></i>
+        <span class="lp ld">Trust</span>
+      </a>
+      <a href="#" class="menu-item">
+        <i class="sp ld-i fa fa-commenting-o text-lightOrange text-font4xl"></i>
+        <span class="lp ld">Blog</span>
+      </a>
+      <a href="tel:+18446369835" class="menu-item">
+        <img class="sprites_telephone h-8 w-8" alt="Phone Number of Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABEAQMAAAAC3QHxAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo2DwAwACqAABDU5LFQAAAABJRU5ErkJggg==">
+        <span class="lp px-2 ld">1-844-MEOWTEL</span>
+      </a>
+    </nav>
+
+    <a href="#" class="lp signup-btn ">
+      SIGN UP
+    </a>
+    <a href="#" class="lp login-btn ">
+      LOGIN
+    </a>
+    <a href="#" class="sp registeration-btn">
+      <i class="fa fa-user-circle-o text-lightOrange text-font4xl"></i>
+    </a>
+  </header>
+
+  <main >    
+    <section class="page-top">
+      <div class="section-intro">
+        <div class="container">
+          <div class="hero-copy mb:w-full md:w-1/2">          
+            <div class="intro-title order-first">
+              <h1>Find an in-home cat sitter</h1>
+              <p class="title-comment">
+                Our nationwide network of trusted and insured cat sitters can scoop, feed, provide lots of cuddles, and even adminnister medications. Allow us to bring our 5-star, purrfect hospitality to you!
+              </p>
+            </div>
+          </div>       
+          <form class="validation" id="searchForm" name="searchFrom" autocomplete="off" action="/search" method="GET" novalidate>
+            <div class="input-groups">
+              <div class="input-group px-5">
+                <p>Location</p>
+                  <input type="text" class="form-control" placeholder="Add zip code" name="location" id="searchLocation" maxlength="5" minlength="5">
+              </div>
+              <div class="input-group center text-center px-2">
+                <p class="text-center">Start date</p>
+                <input type="text" class="form-control text-center" placeholder="Add date" name="startDate" id="startDate" readonly>
+              </div>
+              <div class="input-group text-center px-2">
+                <p class="text-center">End date</p>
+                <input type="text" class="form-control text-center" placeholder="Add date" name="endDate" id="endDate" readonly>
+              </div>
+              <button type="submit" id="mainFormSearch">
+                <img src="assets/images/home/heroSearch.svg" alt="Find cat sitter in Meowtel">
+              </button>
+            </div>
+            <div class="hero-bot-decor hidden md:block">
+              <img src="assets/images/home/heroDots.svg" alt="Composite dots">
+            </div>  
+            <div class="other-filters">
+              <a href="#">
+                See more filters
+                <img src="assets/images/home/arrow-dropdown.svg" alt="Search more filters in Meowtel">
+              </a>
+            </div>                      
+          </form>            
+        </div>
+      </div>
+    </section>
+
+    <section class="section-how-to-work" itemscope itemtype="http://schema.org/HowTo">
+      <div class="container">
+        <h2 itemprop="name">How <span class="bold">Meowtel Works?</span></h2>
+        <p class="title-comment">Cats don't do well outside of their home environment. Our cat sitters bring the purrfect hospitality to you.</p>
+        <div class="row">
+          <div class="sm:w-full md:w-1/3 blocks" itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
+            <div class="row items-center" itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+              <div class="num">
+                <img src="assets/images/home/1.webp" alt="Meowtel cat sitter number 1">
+              </div>
+              <div class="img">
+                <img itemprop="image" src="assets/images/home/search_reserve.webp" alt="Search and reserve in Meowtel">
+                <div class="txt" itemprop="text">
+                  <p class="bold">SEARCH AND RESERVE</p>
+                  <p>Meowtel cat sitter is 5-step vetted & fully insured - we are the cat whisperers!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sm:w-full md:w-1/3 blocks"  itemprop="step" itemscope itemtype="http://schema.org/HowToStep">
+            <div class="row items-center"  itemprop="itemListElement" itemscope itemtype="http://schema.org/HowToDirection">
+              <div class="num">
+                <img src="assets/images/home/2.webp" alt="Meowtel cat sitter number 2">
+              </div>
+              <div class="img">
+                <img itemprop="image" src="assets/images/home/meet_greet.webp" alt="Meet and greet in Meowtel">
+                <div class="txt" itemprop="text">
+                  <p class="bold">MEET & GREET</p>
+                  <p>The cat sitter will meet you & the kitties to ensure it's the purrfect match.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sm:w-full md:w-1/3 blocks">
+            <div class="row items-center">
+              <div class="num">
+                <img src="assets/images/home/3.webp" alt="Meowtel cat sitter number 3">
+              </div>
+              <div class="img">
+                <img src="assets/images/home/relax.webp" alt="Relax in Meowtel">
+                <div class="txt">
+                  <p class="bold">RELAX</p>
+                  <p>You'll receive regular updates, including lots of photos and videos.</p>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+        <div class="row">
+          <button type="button" class="btn search-sitter-btn">Search a Sitter</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-achievements">
+      <h2>Our <span class="bold">Achievements</span></h2>
+      <p class="title-comment">Cats don't do well outside of their home environment. Our cat sitters bring the purrfect hospitality to you.</p>
+      <div class="row ">
+        <div class="sm:w-full md:w-1/2">
+          <img class="w-full" src="assets/images/home/achievements.webp" alt="Meowtel Achievements">
+        </div>
+        <div class="w-full md:w-1/2">
+          <div class="row items-center h-full md:p-0">
+            <div class="xmb:w-1/2 sm:w-1/2 img h-full">
+              <div class="xmb:w-full sm:mb-4 md:w-13vw mb-8 mx-auto">
+                <img src="assets/images/home/achievements-clients.webp" alt="Meowtel Happy Clients">
+              </div>
+              <div class="xmb:w-full locations md:w-13vw">
+                <img src="assets/images/home/achievements-locations.webp" alt="Meowtel Locations (usa)">
+              </div>
+            </div>
+            <div class="xmb:1/2 mb:w-1/2 sm:w-1/2 img">
+              <img class="xmb:w-full md:w-13vw" src="assets/images/home/achievements-reviews.webp" alt="Meowtel Happy Reviews">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-featured text-center">
+      <div class="container">
+        <h2>Featured cat Sitters <span class="bold">Near you</span></h2>
+        <div id="featured-slider" class="splide mb:pt-0 py-20">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide" itemscope itemtype="https://schema.org/EmployerAggregateRating">
+                <div class="price-block">
+                  From <span class="bold">$30</span>
+                </div>
+                <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <div class="sitter">
+                    <img itemprop="image" src="assets/images/home/xx.webp" alt="Featured Cat Sitters of Meowtel">
+                  </div>
+                  <h4 itemprop="name" class="mb:text-2xl sm:text-base lg:text-2xl xl:text-3xl landscape:text-base landscape:px-3 rtm:px-3 px-10 bold pt-6 text-black">Alexa's Grand</h4>
+                </div>
+                <div class="row">
+                  <div class="sitter-rate stars flex items-center">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                  </div>
+
+                  <span class="pl-1" itemprop="ratingValue">5.0</span>                  
+                </div>
+                <div class="text-center">(<span class="review" itemprop="ratingCount">78</span>reviews)</div>
+                <div class="text-center">
+                  <span class="price">$15-$20/hr • 2 yrs exp</span>
+                </div>
+                <button type="button" class="btn book-btn">Book Now</button>
+              </li>          
+              <li class="splide__slide" itemscope itemtype="https://schema.org/EmployerAggregateRating">
+                <div class="price-block">
+                  From <span class="bold">$30</span>
+                </div>
+                <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <div class="sitter">
+                    <img itemprop="image" src="assets/images/home/xx.webp" alt="Featured Cat Sitters of Meowtel">
+                  </div>
+                  <h4 itemprop="name" class="mb:text-2xl sm:text-base lg:text-2xl xl:text-3xl landscape:text-base landscape:px-3 rtm:px-3 px-10 bold pt-6 text-black">Alexa's Grand</h4>
+                </div>
+                <div class="row">
+                  <div class="sitter-rate stars flex items-center">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                  </div>
+
+                  <span class="pl-1" itemprop="ratingValue">5.0</span>                  
+                </div>
+                <div class="text-center">(<span class="review" itemprop="ratingCount">78</span>reviews)</div>
+                <div class="text-center">
+                  <span class="price">$15-$20/hr • 2 yrs exp</span>
+                </div>
+                <button type="button" class="btn book-btn">Book Now</button>
+              </li>          
+              <li class="splide__slide" itemscope itemtype="https://schema.org/EmployerAggregateRating">
+                <div class="price-block">
+                  From <span class="bold">$30</span>
+                </div>
+                <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <div class="sitter">
+                    <img itemprop="image" src="assets/images/home/xx.webp" alt="Featured Cat Sitters of Meowtel">
+                  </div>
+                  <h4 itemprop="name" class="mb:text-2xl sm:text-base lg:text-2xl xl:text-3xl landscape:text-base landscape:px-3 rtm:px-3 px-10 bold pt-6 text-black">Alexa's Grand</h4>
+                </div>
+                <div class="row">
+                  <div class="sitter-rate stars flex items-center">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                  </div>
+
+                  <span class="pl-1" itemprop="ratingValue">5.0</span>                  
+                </div>
+                <div class="text-center">(<span class="review" itemprop="ratingCount">78</span>reviews)</div>
+                <div class="text-center">
+                  <span class="price">$15-$20/hr • 2 yrs exp</span>
+                </div>
+                <button type="button" class="btn book-btn">Book Now</button>
+              </li>          
+              <li class="splide__slide" itemscope itemtype="https://schema.org/EmployerAggregateRating">
+                <div class="price-block">
+                  From <span class="bold">$30</span>
+                </div>
+                <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <div class="sitter">
+                    <img itemprop="image" src="assets/images/home/xx.webp" alt="Featured Cat Sitters of Meowtel">
+                  </div>
+                  <h4 itemprop="name" class="mb:text-2xl sm:text-base lg:text-2xl xl:text-3xl landscape:text-base landscape:px-3 rtm:px-3 px-10 bold pt-6 text-black">Alexa's Grand</h4>
+                </div>
+                <div class="row">
+                  <div class="sitter-rate stars flex items-center">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                  </div>
+
+                  <span class="pl-1" itemprop="ratingValue">5.0</span>                  
+                </div>
+                <div class="text-center">(<span class="review" itemprop="ratingCount">78</span>reviews)</div>
+                <div class="text-center">
+                  <span class="price">$15-$20/hr • 2 yrs exp</span>
+                </div>
+                <button type="button" class="btn book-btn">Book Now</button>
+              </li>          
+              <li class="splide__slide" itemscope itemtype="https://schema.org/EmployerAggregateRating">
+                <div class="price-block">
+                  From <span class="bold">$30</span>
+                </div>
+                <div  itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <div class="sitter">
+                    <img itemprop="image" src="assets/images/home/xx.webp" alt="Featured Cat Sitters of Meowtel">
+                  </div>
+                  <h4 itemprop="name" class="mb:text-2xl sm:text-base lg:text-2xl xl:text-3xl landscape:text-base landscape:px-3 rtm:px-3 px-10 bold pt-6 text-black">Alexa's Grand</h4>
+                </div>
+                <div class="row">
+                  <div class="sitter-rate stars flex items-center">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                  </div>
+
+                  <span class="pl-1" itemprop="ratingValue">5.0</span>                  
+                </div>
+                <div class="text-center">(<span class="review" itemprop="ratingCount">78</span>reviews)</div>
+                <div class="text-center">
+                  <span class="price">$15-$20/hr • 2 yrs exp</span>
+                </div>
+                <button type="button" class="btn book-btn">Book Now</button>
+              </li>            
+                                 
+            </ul>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <section class="section-why text-center">
+      <h2>Why <span class="bold">Meowtel?</span></h2>
+      <div class="container">
+        <div class="row">
+          <div class="mb:w-full mb:my-8 rtm:w-1/2 rtm:px-2 rtm:py-3 md:w-1/4 md:px-0 md:py-6 lg:p-6">
+            <div class="img">
+              <img src="assets/images/home/trust.webp" alt="Trust of Meowtel">
+            </div>
+            <div class="txt">
+              <p class="bold">Trust, First & Foremost</p>
+              <p>Your Trust and Kitty's safety is our top Priority. Our sitters ensure safety of your kitty.</p>
+            </div>
+          </div>
+          <div class="mb:w-full mb:my-8 rtm:w-1/2 rtm:px-2 rtm:py-3 md:w-1/4 md:px-0 md:py-6 lg:p-6" >
+            <div class="img">
+              <img src="assets/images/home/premium.webp" alt="Premium Insurance of Meowtel">
+            </div>
+            <div class="txt">
+              <p class="bold">Premium Insurance</p>
+              <p>We provide all of our cat sitters and cat owners with a Premium Insurance.</p>
+            </div>
+          </div>
+          <div class="mb:w-full mb:my-8 rtm:w-1/2 rtm:px-2 rtm:py-3 md:w-1/4 md:px-0 md:py-6 lg:p-6"  >
+            <div class="img">
+              <img src="assets/images/home/budget.webp" alt="Budget Friendly of Meowtel">
+            </div>
+            <div class="txt">
+              <p class="bold">Budget Friendly</p>
+              <p>Prices start from $20 for 20-minutes of in-home cat sitting and overnight stays.</p>
+            </div>
+          </div>
+          <div class="mb:w-full mb:my-8 rtm:w-1/2 rtm:px-2 rtm:py-3 md:w-1/4 md:px-0 md:py-6 lg:p-6" >
+            <div class="img">
+              <img src="assets/images/home/help-line.webp" alt="Help line of Meowtel">
+            </div>
+            <div class="txt">
+              <p class="bold">24x7 Help Line</p>
+              <p>Our Bellhop team is always available for you and your kitty 24/7.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:pt-12 btn-group">
+          <button type="button" class="search-why-btn btn mx-4">Search a Sitter</button>
+          <button type="button" class="search-become-btn btn mx-4">Become a Sitter</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="section-inter">
+      <div class="container">
+        <img class="cat" src="assets/images/home/learnmore_cat.webp" alt="Learn More about Meowtel">
+        <div class="bgImg">
+          <div class="w-full md:w-3/5 text-white">
+            <p>Our Purrfect Hospitality Promise: <span class="text-darkYellow">100%</span> satisfaction or we'll issue you a full refund.</p>
+          </div>
+          <div class="w-full md:w-2/5 lg:w-1/5 text-center">
+            <a id="learn-more-btn" class="mb:w-4/5 w-full xmb:py-3 xmb:mt-6 inline-block p-4 text-center text-xl shadow-md text-white bg-darkYellow rounded-xl" href="#">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <section class="section-forum">
+      <div class="container">
+        <div class="row p-0">
+          <div class="forum1 w-full md:w-55%" >
+            <div class="txt-part" >
+              <h3 class="bold" >Do you have what it takes to be the next Meowtel cat sitter superstar?</h3>
+              <p class="title-comment">We take cat sitting so seriously that we accept less than 10% of applicants.</p>
+              <button class="btn take-questions">Take The Questionnaire</button>
+            </div>
+          </div>
+          <div class="lp forum2 md:w-45%">
+            <img src="assets/images/home/forum2.webp" alt="Meowtel Forum" class="invisible">
+          </div>
+        </div>
+                
+      </div>
+    </section>
+
+    <section class="section-mobile-app">
+      <div class="container">
+        <div class="row">
+          <div class="w-full md:w-1/2">
+            <div class="w-1/2 m-auto">
+              <img src="assets/images/home/mobile-cat.webp" alt="Download Meowtel Mobile App">
+            </div>
+            <div class="w-full download-part">
+              <h2>Download <span class="bold">Our App</span></h2>
+              <p class="title-comment">Book a 5-star cat sitter, Let us bring the purrfect hospitality to you! Meowtel allows you to book trusted, in-home cat sitters who are 5-step vetted and fully insured.</p>
+              <div class="flex justify-between px-0 xmb:pt-10 landscape:pt-9 md:pt-14">
+                <a href="#" class="w-45%"><img class="w-full" src="assets/images/home/googleplay.svg" alt="Download Meowtel App from Google Play"></a>
+                <a href="#" class="w-45%"><img class="w-full" src="assets/images/home/appstore.svg" alt="Download Meowtel App from App Store"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full xmb:block landscape:flex lg:flex md:w-1/2 lg:pl-9">
+            <img class="w-full 2xl:mb-0 m-auto" src="assets/images/home/mobile-back.webp" alt="Meowtel Mobile App">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-feedback">
+      <div class="container">
+        <h2><span class="bold">Trust And Exceptional</span> Cat Care</h2>
+        <div id="feedback-slider" class="splide py-12">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide" itemscope itemtype="https://schema.org/Review">
+                <div class="hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <img itemprop="image" src="assets/images/header/logo.webp" alt="Meowtel"/>
+                  <span itemprop="name">Meowtel</span>
+                  <span itemprop="telephone">1234567</span>
+                  <span itemprop="address">327 Hayes Street, San Francisco, CA</span>
+                </div>   
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <span class="hidden" itemprop="ratingValue">5</span>
+                </span>                            
+                <div class="stars flex justify-center">
+                  <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                </div>
+                <p itemprop="reviewBody" class="mb:text-2xl sm:text-xl lg:text-2xl xl:text-3xl landscape:px-3 rtm:px-3 px-10 text-gray-600 bold leading-10">"We really feel like our Meowtel cat sitter is part of our little family here to take care of our kitty, Jarvis."</p>
+                <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <div class="clients">
+                    <img itemprop="image" src="assets/images/home/trust.webp" alt="Feedback for Meowtel">
+                  </div> 
+                  <p itemprop="name" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pt-8 pb-2 text-black bold">John Michael and Catherine</p>
+                  <p itemprop="address" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pb-4">Los Angeles</p>
+                </div>
+                <div class="pb-10 landscape:pb-3 px-10 landscape:px-3">
+                  <img class="m-auto w-3/5" src="assets/images/home/Trustpilot_logo.svg" alt="Trustpilot logo">
+                </div>
+              </li>
+              <li class="splide__slide" itemscope itemtype="https://schema.org/Review">
+                <div class="hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <img itemprop="image" src="assets/images/header/logo.webp" alt="Meowtel"/>
+                  <span itemprop="name">Meowtel</span>
+                  <span itemprop="telephone">1234567</span>
+                  <span itemprop="address">327 Hayes Street, San Francisco, CA</span>
+                </div>   
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <span class="hidden" itemprop="ratingValue">5</span>
+                </span>                            
+                <div class="stars flex justify-center">
+                  <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                </div>
+                <p itemprop="reviewBody" class="mb:text-2xl sm:text-xl lg:text-2xl xl:text-3xl landscape:px-3 rtm:px-3 px-10 text-gray-600 bold leading-10">"We really feel like our Meowtel cat sitter is part of our little family here to take care of our kitty, Jarvis."</p>
+                <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <div class="clients">
+                    <img itemprop="image" src="assets/images/home/trust.webp" alt="Feedback for Meowtel">
+                  </div> 
+                  <p itemprop="name" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pt-8 pb-2 text-black bold">John Michael and Catherine</p>
+                  <p itemprop="address" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pb-4">Los Angeles</p>
+                </div>
+                <div class="pb-10 landscape:pb-3 px-10 landscape:px-3">
+                  <img class="m-auto w-3/5" src="assets/images/home/Trustpilot_logo.svg" alt="Trustpilot logo">
+                </div>
+              </li>
+              <li class="splide__slide" itemscope itemtype="https://schema.org/Review">
+                <div class="hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <img itemprop="image" src="assets/images/header/logo.webp" alt="Meowtel"/>
+                  <span itemprop="name">Meowtel</span>
+                  <span itemprop="telephone">1234567</span>
+                  <span itemprop="address">327 Hayes Street, San Francisco, CA</span>
+                </div>   
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <span class="hidden" itemprop="ratingValue">5</span>
+                </span>                            
+                <div class="stars flex justify-center">
+                  <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                </div>
+                <p itemprop="reviewBody" class="mb:text-2xl sm:text-xl lg:text-2xl xl:text-3xl landscape:px-3 rtm:px-3 px-10 text-gray-600 bold leading-10">"We really feel like our Meowtel cat sitter is part of our little family here to take care of our kitty, Jarvis."</p>
+                <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <div class="clients">
+                    <img itemprop="image" src="assets/images/home/trust.webp" alt="Feedback for Meowtel">
+                  </div> 
+                  <p itemprop="name" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pt-8 pb-2 text-black bold">John Michael and Catherine</p>
+                  <p itemprop="address" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pb-4">Los Angeles</p>
+                </div>
+                <div class="pb-10 landscape:pb-3 px-10 landscape:px-3">
+                  <img class="m-auto w-3/5" src="assets/images/home/Trustpilot_logo.svg" alt="Trustpilot logo">
+                </div>
+              </li>
+              <li class="splide__slide" itemscope itemtype="https://schema.org/Review">
+                <div class="hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <img itemprop="image" src="assets/images/header/logo.webp" alt="Meowtel"/>
+                  <span itemprop="name">Meowtel</span>
+                  <span itemprop="telephone">1234567</span>
+                  <span itemprop="address">327 Hayes Street, San Francisco, CA</span>
+                </div>   
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <span class="hidden" itemprop="ratingValue">5</span>
+                </span>                            
+                <div class="stars flex justify-center">
+                  <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                </div>
+                <p itemprop="reviewBody" class="mb:text-2xl sm:text-xl lg:text-2xl xl:text-3xl landscape:px-3 rtm:px-3 px-10 text-gray-600 bold leading-10">"We really feel like our Meowtel cat sitter is part of our little family here to take care of our kitty, Jarvis."</p>
+                <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <div class="clients">
+                    <img itemprop="image" src="assets/images/home/trust.webp" alt="Feedback for Meowtel">
+                  </div> 
+                  <p itemprop="name" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pt-8 pb-2 text-black bold">John Michael and Catherine</p>
+                  <p itemprop="address" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pb-4">Los Angeles</p>
+                </div>
+                <div class="pb-10 landscape:pb-3 px-10 landscape:px-3">
+                  <img class="m-auto w-3/5" src="assets/images/home/Trustpilot_logo.svg" alt="Trustpilot logo">
+                </div>
+              </li>
+              <li class="splide__slide" itemscope itemtype="https://schema.org/Review">
+                <div class="hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
+                  <img itemprop="image" src="assets/images/header/logo.webp" alt="Meowtel"/>
+                  <span itemprop="name">Meowtel</span>
+                  <span itemprop="telephone">1234567</span>
+                  <span itemprop="address">327 Hayes Street, San Francisco, CA</span>
+                </div>   
+                <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+                  <span class="hidden" itemprop="ratingValue">5</span>
+                </span>                            
+                <div class="stars flex justify-center">
+                  <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                    <img class="sprites_star" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkAQMAAAA0DGHlAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAAxJREFUeNpjYBieAAAA2AABB43sDAAAAABJRU5ErkJggg==">
+                </div>
+                <p itemprop="reviewBody" class="mb:text-2xl sm:text-xl lg:text-2xl xl:text-3xl landscape:px-3 rtm:px-3 px-10 text-gray-600 bold leading-10">"We really feel like our Meowtel cat sitter is part of our little family here to take care of our kitty, Jarvis."</p>
+                <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <div class="clients">
+                    <img itemprop="image" src="assets/images/home/trust.webp" alt="Feedback for Meowtel">
+                  </div> 
+                  <p itemprop="name" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pt-8 pb-2 text-black bold">John Michael and Catherine</p>
+                  <p itemprop="address" class="mb:text-xl sm:text-lg lg:text-xl xl:text-2xl landscape:px-3 rtm:px-3 px-10 pb-4">Los Angeles</p>
+                </div>
+                <div class="pb-10 landscape:pb-3 px-10 landscape:px-3">
+                  <img class="m-auto w-3/5" src="assets/images/home/Trustpilot_logo.svg" alt="Trustpilot logo">
+                </div>
+              </li>         
+                      
+            </ul>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <aside class="section-inter">
+      <div class="container">
+        <img class="cat" src="assets/images/home/learnmore_cat.webp" alt="Learn More about Meowtel">
+        <div class="bgImg">
+          <div class="w-full md:w-3/5 text-white">
+            <p>Prices start from <span class="text-darkYellow">$20</span> for <span class="text-darkYellow">20</span> minutes of in-home cat sitting.</p>
+          </div>
+          <div class="w-full md:w-2/5 lg:w-1/5 text-center">
+            <a id="search-cat-sitter-btn" class="mb:w-4/5 w-full xmb:py-3 xmb:mt-6 inline-block p-4 text-center text-xl shadow-md text-white bg-darkYellow rounded-xl" href="#">SEARCH A CAT SITTER</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="w-full xmb:px-6 md:w-1/3" itemscope itemtype="https://schema.org/FAQPage">
+          <div class="py-5" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">            
+            <div class="landscape:pb-4">
+              <h2 class="font-extrabold" itemprop="name" >Why <br> Meowtel?</h2>
+            </div>            
+            <div class="flex">
+              <div class="w-full lg:w-90% pt-9" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <div class="divide-line w-full md:w-4/5"></div>
+                <p class="w-full md:w-4/5 mt-3 mb-7"  itemprop="text">Meowtel is helping every cat and cat parent live their best life! Our vetted and insured cat sitters bring the purrfect hospitality to you.</p>
+                <button type="button" class="btn reserve-sitter-btn">RESERVE A CAT SITTER</button>
+                <div class="text-2xl landscape:text-xl bold pt-10 pb-2 tracking-wide">Get Started</div>
+                <div class="divide-line w-2/5"></div>
+                <button type="button" class="btn footer-login-btn">LOG IN</button>
+                <button type="button" class="btn footer-signup-btn">SIGN UP</button>
+              </div>
+              <div class="lp vertical-line fst"></div>
+            </div>            
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 md:pt-8vw landscape:pt-6vw px-4">
+          <div class="row">
+            <div class="w-1/2">
+              <div class="text-2xl landscape:text-xl bold pt-10 pb-2 pr-4 tracking-wide">Find a cat sitter</div>
+              <div class="divide-line w-3/5"></div>
+              <div class="links">
+                <a href="#" class="go-NewYork">New York</a>
+                <a href="#" class="go-LosAngeles">Los Angeles</a>
+                <a href="#" class="go-Chicago">Chicago</a>
+                <a href="#" class="go-Dallas">Dallas</a>
+                <a href="#" class="go-SanDiego">San Diego</a>
+                <a href="#" class="go-Seattle">Seattle</a>
+                <a href="#" class="go-Austin">Austin</a>
+                <a href="#" class="go-Portland">Portland</a>
+                <a href="#" class="see-all-locations text-darkYellow">See all locations...</a>
+              </div>
+            </div>
+            <div class="w-1/2">
+              <div class="text-2xl landscape:text-xl bold pt-10 pb-2 tracking-wide">Learn More</div>
+              <div class="divide-line w-3/5"></div>
+              <div class="links">
+                <a href="#" class="go-aboutus">About Us</a>
+                <a href="#" class="go-howwork">How Does it Work?</a>
+                <a href="#" class="go-why">Why Choose Meowtel?</a>
+                <a href="#" class="go-premiuminsurance">Our Premium Insurance</a>
+                <a href="#" class="go-SanDiego">Our Online Store(Gift for cat Lovers!)</a>
+              </div>
+              <div class="text-2xl landscape:text-xl bold pt-1.05vw pb-2 tracking-wide">We Can Help</div>
+              <div class="divide-line w-3/5"></div>
+              <div class="links">
+                <a href="#" class="go-help">Help & Faq</a>
+                <a href="#" class="go-blog">Cat Sitter's Blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full xmb:px-6 md:w-1/3 md:pl-6 md:pt-3vw">
+          <div class="become-sitter">
+            <img src="assets/images/footer/becomesitter.webp" alt="Become a cat sitter in Meowtel">
+          </div>
+          <h3 class="text-darkYellow bold ">Become a cat sitter</h3>
+          <div class="divide-line w-4/5"></div>
+          <p class="mb-20px">Be your own boss, choose your own rates & availability, meet ameowzing kittes near you!</p>
+          <button type="button" class="btn become-sitter-btn bg-darkYellow">BECOME A CAT SITTER</button>
+          <div class="row contactus">
+            <div class="w-1/2">
+              <div class="text-2xl landscape:text-xl bold pt-10 pb-6 tracking-wide pr-1">Contact Us</div>
+              <div class="divide-line w-4/5"></div>
+              <div class="flex justify-between">                
+                <address class="w-90% not-italic" itemscope itemtype="https://schema.org/LocalBusiness">
+                  <p itemprop="name">Meowtel Cat Sitting</p>
+                  <img itemprop="image" class="hidden" src="assets/images/header/logo.webp" alt="Meowtel Logo" />
+                  <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <p itemprop="streetAddress">327 Hayes Street</p>
+                    <p itemprop="addressLocality">San Francisco, <span itemprop="addressRegion">CA</span>,</p>
+                    <p itemprop="postalCode">94102</p>
+                  </div>                  
+                  <div class="pt-9">
+                    <p class="text-darkYellow bold"><a class="footer-call-phone" title="Call Meowtel" href="tel:+18446369835" itemprop="telephone">1-844-MEOWTEL</a></p>
+                    <p>8am - 6pm PST</p>
+                  </div>
+                </address>
+                <div class="lp vertical-line sec"></div>
+              </div>
+            </div>
+            <div class="w-1/2 pl-9">              
+              <div class="text-2xl landscape:text-xl bold pt-10 pb-6 tracking-wide">Social</div>
+              <div class="divide-line w-4/5"></div>
+              <div class="flex">
+                <a href="#" class="w-1/4 sm:w-18% sxl:w-9 mr-5 landscape:w-6 landscape:mr-1">
+                  <img class="sprites_facebook " alt="Facebook Login into Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxkAAAHAAAG/F6vBAAAAAElFTkSuQmCC">
+                </a>
+                <a href="#" class="w-1/4 sm:w-18% sxl:w-9 mr-5 landscape:w-6 landscape:mr-1">
+                  <img class="sprites_twitter" alt="Twitter Login into Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxkAAAHAAAG/F6vBAAAAAElFTkSuQmCC">
+                </a>
+                <a href="#" class="w-1/4 sm:w-18% sxl:w-9 landscape:w-6 ">
+                  <img class="sprites_insta" alt="Instagram Login into Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxkAAAHAAAG/F6vBAAAAAElFTkSuQmCC">
+                </a>
+              </div>
+              <div class="text-2xl landscape:text-xl bold pt-10 pb-2 tracking-wide">Get The App</div>
+              <div class="divide-line w-4/5"></div>
+              <div class="flex">
+                <a href="#" class="w-1/4 sm:w-18% sxl:w-9 mr-5 landscape:w-6 landscape:mr-1">
+                  <img class="sprites_apple" alt="Download Meowtel App from App Store" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxkAAAHAAAG/F6vBAAAAAElFTkSuQmCC">                  
+                </a>
+                <a href="#" class="w-1/4 sm:w-18% sxl:w-9 landscape:w-6">
+                  <img class="sprites_googleplay" alt="Download Meowtel App from Google Play" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA5JREFUeNpjYBgFQxkAAAHAAAG/F6vBAAAAAElFTkSuQmCC">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <div class="divide-line w-full"></div>
+
+      <div class="row footer-bottom">
+        <div class="w-full md:w-1/2 xmb:justify-center md:justify-end flex flex-wrap items-center">
+          <a href="#">
+            <img class="sprites_visa" alt="Visa payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+          <a href="#">
+            <img class="sprites_master" alt="Master Card payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+          <a href="#">
+            <img class="sprites_amex" alt="Amex payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+          <a href="#">
+            <img class="sprites_paypal" alt="Paypal payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+          <a href="#">
+            <img class="sprites_discover" alt="Discover payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+          <a href="#">
+            <img class="sprites_diners" alt="Diners payment in Meowtel" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAAAyAQMAAAD4CG7FAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAA9JREFUeNpjYBgFo4D6AAACWAABGb4wRAAAAABJRU5ErkJggg==">
+          </a>
+        </div>
+        <div class="w-full xmb:p-2 xmb:text-center md:w-1/2 text-lg leading-10 tracking-wider opacity-50">
+          Meowtel Inc. &copy; 2021. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/splide.min.js"></script>
+  <script src="js/flatpickr.js"></script>
+  <script src="js/main.js"></script>
+ 
+</body>
+</html>
